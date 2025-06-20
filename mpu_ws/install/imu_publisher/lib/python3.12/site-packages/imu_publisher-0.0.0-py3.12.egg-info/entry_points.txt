@@ -1,0 +1,3 @@
+[console_scripts]
+imu = imu_publisher.IMU:main
+tf = imu_publisher.tf:main

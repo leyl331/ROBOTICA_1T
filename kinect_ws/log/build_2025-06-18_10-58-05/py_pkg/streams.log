@@ -1,0 +1,34 @@
+[1.566s] Invoking command in '/home/leyla/Desktop/kinect_ws/src/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[1.893s] running egg_info
+[1.942s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.949s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.950s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.951s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.951s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.998s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.104s] adding license file 'LICENSE'
+[2.105s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[2.105s] running build
+[2.106s] running build_py
+[2.106s] copying py_pkg/d_aruco.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[2.106s] copying py_pkg/pub.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[2.107s] copying py_pkg/d_vel.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[2.108s] running install
+[2.120s] running install_lib
+[2.142s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/d_aruco.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[2.142s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/pub.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[2.143s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/d_vel.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[2.144s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/d_aruco.py to d_aruco.cpython-312.pyc
+[2.147s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/pub.py to pub.cpython-312.pyc
+[2.149s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/d_vel.py to d_vel.cpython-312.pyc
+[2.150s] running install_data
+[2.150s] copying package.xml -> /home/leyla/Desktop/kinect_ws/install/py_pkg/share/py_pkg
+[2.151s] running install_egg_info
+[2.175s] removing '/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.175s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info
+[2.202s] running install_scripts
+[2.375s] Installing d_aruco script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.375s] Installing d_vel script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.375s] Installing pub script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.377s] writing list of installed files to '/home/leyla/Desktop/kinect_ws/build/py_pkg/install.log'
+[2.458s] Invoked command in '/home/leyla/Desktop/kinect_ws/src/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+[1.224s] Invoking command in '/home/leyla/Desktop/kinect_ws/src/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[1.570s] running egg_info
+[1.592s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.592s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.594s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.594s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.595s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.649s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.654s] adding license file 'LICENSE'
+[1.655s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.657s] running build
+[1.658s] running build_py
+[1.658s] copying py_pkg/lidar.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[1.658s] copying py_pkg/pub.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[1.659s] running install
+[1.678s] running install_lib
+[1.697s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/lidar.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[1.698s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/pub.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[1.699s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/lidar.py to lidar.cpython-312.pyc
+[1.700s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/pub.py to pub.cpython-312.pyc
+[1.702s] running install_data
+[1.702s] running install_egg_info
+[1.727s] removing '/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.728s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info
+[1.731s] running install_scripts
+[1.892s] Installing d_aruco script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[1.892s] Installing d_vel script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[1.894s] Installing lidar script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[1.894s] Installing pub script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[1.895s] Installing servo script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[1.896s] writing list of installed files to '/home/leyla/Desktop/kinect_ws/build/py_pkg/install.log'
+[1.978s] Invoked command in '/home/leyla/Desktop/kinect_ws/src/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data

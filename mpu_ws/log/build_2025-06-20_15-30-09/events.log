@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001830] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.002369] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.099266] (-) TimerEvent: {}
+[0.200151] (-) TimerEvent: {}
+[0.300955] (-) TimerEvent: {}
+[0.401718] (-) TimerEvent: {}
+[0.502091] (-) TimerEvent: {}
+[0.602676] (-) TimerEvent: {}
+[0.703106] (-) TimerEvent: {}
+[0.803837] (-) TimerEvent: {}
+[0.905622] (-) TimerEvent: {}
+[1.006417] (-) TimerEvent: {}
+[1.107113] (-) TimerEvent: {}
+[1.207798] (-) TimerEvent: {}
+[1.310580] (-) TimerEvent: {}
+[1.413613] (-) TimerEvent: {}
+[1.514498] (-) TimerEvent: {}
+[1.620553] (-) TimerEvent: {}
+[1.721972] (-) TimerEvent: {}
+[1.824639] (-) TimerEvent: {}
+[1.925669] (-) TimerEvent: {}
+[2.028635] (-) TimerEvent: {}
+[2.130867] (-) TimerEvent: {}
+[2.232626] (-) TimerEvent: {}
+[2.334121] (-) TimerEvent: {}
+[2.434954] (-) TimerEvent: {}
+[2.536073] (-) TimerEvent: {}
+[2.638206] (-) TimerEvent: {}
+[2.739835] (-) TimerEvent: {}
+[2.842669] (-) TimerEvent: {}
+[2.943530] (-) TimerEvent: {}
+[3.047319] (-) TimerEvent: {}
+[3.084577] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_publisher', 'build', '--build-base', '/home/leyla/Desktop/mpu_ws/build/imu_publisher/build', 'install', '--record', '/home/leyla/Desktop/mpu_ws/build/imu_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leyla/Desktop/mpu_ws/src/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leyla', 'SSH_CLIENT': '192.168.224.249 44744 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'HOME': '/home/leyla', 'OLDPWD': '/home/leyla/Desktop', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-ea64bd19-1400-4d66-92a4-0c48b960a85e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PICO_TOOLCHAIN_PATH': '...', 'COLCON_PREFIX_PATH': '/home/leyla/Desktop/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'leyla', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/leyla/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/leyla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-18c7d60837.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/leyla/Desktop/mpu_ws/build/imu_publisher', 'LC_ALL': 'en_US.UTF-8', 'PICO_SDK_PATH': '/home/leyla/pico-sdk', 'SSH_CONNECTION': '192.168.224.249 44744 192.168.224.5 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leyla/Desktop/mpu_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages:/home/leyla/Desktop/ros2_ws/build/my_slam:/home/leyla/Desktop/ros2_ws/install/my_slam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.147838] (-) TimerEvent: {}
+[3.250811] (-) TimerEvent: {}
+[3.351625] (-) TimerEvent: {}
+[3.452722] (-) TimerEvent: {}
+[3.555779] (-) TimerEvent: {}
+[3.660182] (-) TimerEvent: {}
+[3.762958] (-) TimerEvent: {}
+[3.863924] (-) TimerEvent: {}
+[3.965391] (-) TimerEvent: {}
+[4.067889] (-) TimerEvent: {}
+[4.102050] (imu_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.168042] (-) TimerEvent: {}
+[4.171448] (imu_publisher) StdoutLine: {'line': b'writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO\n'}
+[4.171982] (imu_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt\n'}
+[4.173202] (imu_publisher) StdoutLine: {'line': b'writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt\n'}
+[4.173461] (imu_publisher) StdoutLine: {'line': b'writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt\n'}
+[4.177219] (imu_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt\n'}
+[4.269646] (-) TimerEvent: {}
+[4.361589] (imu_publisher) StdoutLine: {'line': b"reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[4.366070] (imu_publisher) StdoutLine: {'line': b"writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[4.368033] (imu_publisher) StdoutLine: {'line': b'running build\n'}
+[4.368791] (imu_publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.372617] (imu_publisher) StdoutLine: {'line': b'running install\n'}
+[4.374788] (-) TimerEvent: {}
+[4.388946] (imu_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.475020] (-) TimerEvent: {}
+[4.487394] (imu_publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.490337] (imu_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.575294] (imu_publisher) StdoutLine: {'line': b"removing '/home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages/imu_publisher-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.576067] (-) TimerEvent: {}
+[4.586321] (imu_publisher) StdoutLine: {'line': b'Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages/imu_publisher-0.0.0-py3.12.egg-info\n'}
+[4.602609] (imu_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.677637] (-) TimerEvent: {}
+[4.779586] (-) TimerEvent: {}
+[4.881281] (-) TimerEvent: {}
+[4.984629] (-) TimerEvent: {}
+[5.085511] (-) TimerEvent: {}
+[5.186211] (-) TimerEvent: {}
+[5.220951] (imu_publisher) StdoutLine: {'line': b'Installing imu script to /home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/imu_publisher\n'}
+[5.224352] (imu_publisher) StdoutLine: {'line': b'Installing tf script to /home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/imu_publisher\n'}
+[5.229609] (imu_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/leyla/Desktop/mpu_ws/build/imu_publisher/install.log'\n"}
+[5.287859] (-) TimerEvent: {}
+[5.389553] (-) TimerEvent: {}
+[5.491199] (-) TimerEvent: {}
+[5.498178] (imu_publisher) CommandEnded: {'returncode': 0}
+[5.578715] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 0}
+[5.582799] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[1.722s] Invoking command in '/home/leyla/Documents/mpu_ws/src/imu_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Documents/mpu_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Documents/mpu_ws/install/imu_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /home/leyla/Documents/mpu_ws/build/imu_publisher/build install --record /home/leyla/Documents/mpu_ws/build/imu_publisher/install.log --single-version-externally-managed install_data
+[2.198s] running egg_info
+[2.229s] writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt
+[2.238s] writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt
+[2.239s] writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt
+[2.239s] writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt
+[2.300s] reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[2.305s] writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[2.305s] running build
+[2.306s] running build_py
+[2.306s] running install
+[2.320s] running install_lib
+[2.356s] running install_data
+[2.357s] running install_egg_info
+[2.392s] removing '/home/leyla/Documents/mpu_ws/install/imu_publisher/lib/python3.12/site-packages/imu_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[2.393s] Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/leyla/Documents/mpu_ws/install/imu_publisher/lib/python3.12/site-packages/imu_publisher-0.0.0-py3.12.egg-info
+[2.395s] running install_scripts
+[2.616s] Installing imu script to /home/leyla/Documents/mpu_ws/install/imu_publisher/lib/imu_publisher
+[2.617s] Installing tf script to /home/leyla/Documents/mpu_ws/install/imu_publisher/lib/imu_publisher
+[2.620s] writing list of installed files to '/home/leyla/Documents/mpu_ws/build/imu_publisher/install.log'
+[2.756s] Invoked command in '/home/leyla/Documents/mpu_ws/src/imu_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Documents/mpu_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Documents/mpu_ws/install/imu_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /home/leyla/Documents/mpu_ws/build/imu_publisher/build install --record /home/leyla/Documents/mpu_ws/build/imu_publisher/install.log --single-version-externally-managed install_data

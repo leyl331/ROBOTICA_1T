@@ -1,0 +1,28 @@
+[1.402s] Invoking command in '/home/leyla/Desktop/kinect_ws/src/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[1.784s] running egg_info
+[1.810s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.810s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.812s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.813s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.814s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.865s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.865s] adding license file 'LICENSE'
+[1.866s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.867s] running build
+[1.867s] running build_py
+[1.867s] copying py_pkg/servo.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[1.869s] running install
+[1.877s] running install_lib
+[1.906s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/servo.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[1.911s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/servo.py to servo.cpython-312.pyc
+[1.916s] running install_data
+[1.916s] running install_egg_info
+[1.943s] removing '/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.943s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info
+[1.945s] running install_scripts
+[2.129s] Installing d_aruco script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.130s] Installing d_vel script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.132s] Installing pub script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.132s] Installing servo script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[2.133s] writing list of installed files to '/home/leyla/Desktop/kinect_ws/build/py_pkg/install.log'
+[2.233s] Invoked command in '/home/leyla/Desktop/kinect_ws/src/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.003737] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.003958] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.102593] (-) TimerEvent: {}
+[0.203229] (-) TimerEvent: {}
+[0.304806] (-) TimerEvent: {}
+[0.405698] (-) TimerEvent: {}
+[0.507102] (-) TimerEvent: {}
+[0.607996] (-) TimerEvent: {}
+[0.709674] (-) TimerEvent: {}
+[0.810709] (-) TimerEvent: {}
+[0.912989] (-) TimerEvent: {}
+[1.015499] (-) TimerEvent: {}
+[1.118007] (-) TimerEvent: {}
+[1.219490] (-) TimerEvent: {}
+[1.320938] (-) TimerEvent: {}
+[1.421826] (-) TimerEvent: {}
+[1.522390] (-) TimerEvent: {}
+[1.624217] (-) TimerEvent: {}
+[1.727439] (-) TimerEvent: {}
+[1.828621] (-) TimerEvent: {}
+[1.930851] (-) TimerEvent: {}
+[2.032276] (-) TimerEvent: {}
+[2.134178] (-) TimerEvent: {}
+[2.235369] (-) TimerEvent: {}
+[2.335910] (-) TimerEvent: {}
+[2.436442] (-) TimerEvent: {}
+[2.537201] (-) TimerEvent: {}
+[2.637806] (-) TimerEvent: {}
+[2.739080] (-) TimerEvent: {}
+[2.839676] (-) TimerEvent: {}
+[2.918596] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_publisher', 'build', '--build-base', '/home/leyla/Desktop/mpu_ws/build/imu_publisher/build', 'install', '--record', '/home/leyla/Desktop/mpu_ws/build/imu_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leyla/Desktop/mpu_ws/src/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leyla', 'SSH_CLIENT': '192.168.224.249 40232 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'HOME': '/home/leyla', 'OLDPWD': '/home/leyla/Desktop', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-efdf5a19-b8b1-40e7-9ffb-e3b3691dab3d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PICO_TOOLCHAIN_PATH': '...', 'COLCON_PREFIX_PATH': '/home/leyla/Desktop/mpu_ws/install:/home/leyla/Desktop/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'leyla', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/home/leyla/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/leyla/.local/bin:/opt/ros/jazzy/bin:/home/leyla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-18c7d60837.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/home/leyla/Desktop/mpu_ws/install/imu_publisher:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/leyla/Desktop/mpu_ws/build/imu_publisher', 'LC_ALL': 'en_US.UTF-8', 'PICO_SDK_PATH': '/home/leyla/pico-sdk', 'SSH_CONNECTION': '192.168.224.249 40232 192.168.224.5 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leyla/Desktop/mpu_ws/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages:/home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages:/home/leyla/Desktop/ros2_ws/build/my_slam:/home/leyla/Desktop/ros2_ws/install/my_slam/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.940012] (-) TimerEvent: {}
+[3.040560] (-) TimerEvent: {}
+[3.141167] (-) TimerEvent: {}
+[3.242246] (-) TimerEvent: {}
+[3.347624] (-) TimerEvent: {}
+[3.448586] (-) TimerEvent: {}
+[3.549677] (-) TimerEvent: {}
+[3.650817] (-) TimerEvent: {}
+[3.752582] (-) TimerEvent: {}
+[3.842931] (imu_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[3.852737] (-) TimerEvent: {}
+[3.928850] (imu_publisher) StdoutLine: {'line': b'writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO\n'}
+[3.930926] (imu_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt\n'}
+[3.932645] (imu_publisher) StdoutLine: {'line': b'writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt\n'}
+[3.934151] (imu_publisher) StdoutLine: {'line': b'writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt\n'}
+[3.934382] (imu_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt\n'}
+[3.952917] (-) TimerEvent: {}
+[4.054658] (-) TimerEvent: {}
+[4.072174] (imu_publisher) StdoutLine: {'line': b"reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[4.072829] (imu_publisher) StdoutLine: {'line': b"writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[4.074695] (imu_publisher) StdoutLine: {'line': b'running build\n'}
+[4.080888] (imu_publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.081195] (imu_publisher) StdoutLine: {'line': b'running install\n'}
+[4.101646] (imu_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.156827] (-) TimerEvent: {}
+[4.189767] (imu_publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.190191] (imu_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.256964] (-) TimerEvent: {}
+[4.274494] (imu_publisher) StdoutLine: {'line': b"removing '/home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages/imu_publisher-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.277900] (imu_publisher) StdoutLine: {'line': b'Copying ../../build/imu_publisher/imu_publisher.egg-info to /home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/python3.12/site-packages/imu_publisher-0.0.0-py3.12.egg-info\n'}
+[4.287654] (imu_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.357083] (-) TimerEvent: {}
+[4.458728] (-) TimerEvent: {}
+[4.560623] (-) TimerEvent: {}
+[4.663610] (-) TimerEvent: {}
+[4.676008] (imu_publisher) StdoutLine: {'line': b'Installing imu script to /home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/imu_publisher\n'}
+[4.677324] (imu_publisher) StdoutLine: {'line': b'Installing tf script to /home/leyla/Desktop/mpu_ws/install/imu_publisher/lib/imu_publisher\n'}
+[4.679592] (imu_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/leyla/Desktop/mpu_ws/build/imu_publisher/install.log'\n"}
+[4.764554] (-) TimerEvent: {}
+[4.867595] (-) TimerEvent: {}
+[4.884371] (imu_publisher) CommandEnded: {'returncode': 0}
+[4.925784] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 0}
+[4.928246] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+[1.348s] Invoking command in '/home/leyla/Desktop/kinect_ws/src/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[1.663s] running egg_info
+[1.663s] creating ../../build/py_pkg/py_pkg.egg-info
+[1.683s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[1.683s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[1.683s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[1.683s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[1.684s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[1.684s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.725s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.726s] adding license file 'LICENSE'
+[1.726s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[1.726s] running build
+[1.727s] running build_py
+[1.727s] creating /home/leyla/Desktop/kinect_ws/build/py_pkg/build
+[1.727s] creating /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib
+[1.727s] creating /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[1.727s] copying py_pkg/__init__.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[1.727s] copying py_pkg/pub.py -> /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg
+[1.727s] running install
+[1.737s] running install_lib
+[1.760s] creating /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[1.760s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[1.760s] copying /home/leyla/Desktop/kinect_ws/build/py_pkg/build/lib/py_pkg/pub.py -> /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg
+[1.760s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.761s] byte-compiling /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg/pub.py to pub.cpython-312.pyc
+[1.762s] running install_data
+[1.762s] creating /home/leyla/Desktop/kinect_ws/install/py_pkg/share/ament_index
+[1.762s] creating /home/leyla/Desktop/kinect_ws/install/py_pkg/share/ament_index/resource_index
+[1.762s] creating /home/leyla/Desktop/kinect_ws/install/py_pkg/share/ament_index/resource_index/packages
+[1.762s] copying resource/py_pkg -> /home/leyla/Desktop/kinect_ws/install/py_pkg/share/ament_index/resource_index/packages
+[1.763s] copying package.xml -> /home/leyla/Desktop/kinect_ws/install/py_pkg/share/py_pkg
+[1.763s] running install_egg_info
+[1.785s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info
+[1.786s] running install_scripts
+[1.932s] Installing pub script to /home/leyla/Desktop/kinect_ws/install/py_pkg/lib/py_pkg
+[1.932s] writing list of installed files to '/home/leyla/Desktop/kinect_ws/build/py_pkg/install.log'
+[2.010s] Invoked command in '/home/leyla/Desktop/kinect_ws/src/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/leyla/Desktop/kinect_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/kinect_ws/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/leyla/Desktop/kinect_ws/build/py_pkg/build install --record /home/leyla/Desktop/kinect_ws/build/py_pkg/install.log --single-version-externally-managed install_data
